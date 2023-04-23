@@ -1,0 +1,12 @@
+p{
+ 
+    text-align: center;
+   background-color: skyblue;
+   border:rgb(9, 168, 168) solid 3px;
+   border-radius: 1cm;
+  }
+  
+  img{
+    max-width: 50%;
+    padding-left: 25%;
+  }
