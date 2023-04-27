@@ -25,6 +25,11 @@ function TourDetails(props) {
           <div>
             {a.map(user => (
               <div key={user.id}>
+                   
+                 <p>{user.name}</p>
+              <img src={user.image} alt={user.image} ></img>
+  
+              
                 <p>{user.info.slice(0, 200)} </p>
                 <Button onClick={clicked}>see more</Button>
   
@@ -51,7 +56,9 @@ function TourDetails(props) {
         <div>
           {a.map(user => (
             <div key={user.id}>
-             
+                <p>{user.name}</p>
+              <img src={user.image} alt={user.image} ></img>
+  
               <p>{user.info} </p>
               <Button onClick={clicked}>see less</Button>
 
